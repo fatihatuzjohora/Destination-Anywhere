@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@500&display=swap") 
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@500&display=swap") ;
 
 *{
   margin: 0;
@@ -166,37 +166,123 @@ li {
   color: rgba(19, 19, 24, 0.70);
 }
 
-.section4-container-main-img img {
+
+.section4-row1-image{
+  /* min-height: 600px;
+  border: 2px solid red;
+  display: grid;
+  grid-template-columns:repeat(auto-fit,minmax(20%,1fr)) ;
+  gap: 15px; */
+  min-height: 900px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit,minmax(20%,1fr));
+  grid-gap: 15px;
   width: 100%;
+  grid-auto-rows: 300px;
 }
-.section4-row1-image img {
+.row1-img{
+  /* background-color: #8d98aa; */
+  border-radius: 16px;
+  -webkit-transition: all 0.15s linier;
+  transition: all 0.15s linear; 
+}
+.row1-img>img{
+  width: 100%;
   height: 100%;
+  object-fit: cover;
+  border-radius: 16px;
 }
-.row1-image {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  gap: 15px;
+.row1-img:nth-child(1){
+  grid-column: span 2;
+  position: relative;
 }
-.row2-image {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 15px;
+.row1-img:nth-child(n)::before{
+  background-color: linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.20) 100%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin: auto;
+  color: #FFF;
+  font-size: 28px;
+  font-weight: 800;
 }
-.row3-image {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  gap: 15px;
+
+.row1-img:nth-child(1)::before{
+  content: 'Maldives';
 }
+
+.row1-img:nth-child(2)::before{
+  content: 'Indonesia';
+}
+
+.row1-img:nth-child(2){
+  grid-column: span 2;
+  position: relative;
+}
+
+.row1-img:nth-child(3){
+  grid-column: span 1;
+  position: relative;
+}
+
+.row1-img:nth-child(3)::before{
+  content: 'Srilanka';
+}
+
+.row1-img:nth-child(4){
+  grid-column: span 2;
+  position: relative;
+}
+
+.row1-img:nth-child(4)::before{
+  content: 'North America';
+}
+
+.row1-img:nth-child(5){
+  grid-column: span 1;
+  position: relative;
+}
+
+.row1-img:nth-child(5)::before{
+  content: 'Kashmir';
+}
+
+.row1-img:nth-child(6){
+  grid-column: span 2;
+  position: relative;
+}
+
+.row1-img:nth-child(6)::before{
+  content: 'Bangladesh';
+}
+
+.row1-img:nth-child(7){
+  grid-column: span 2;
+  position: relative;
+}
+.row1-img:nth-child(7)::before{
+  content: 'Bandarban';
+}
+
+
 
 /* section-4 end */
 
 /* section-5 start */
+
+.section5-container1{
+margin-top: 30px;
+}
 .section5-container1>h1{
     font-size: 30px;
     font-weight: bold;
     text-align: center;
     color: #131318;
-line-height: normal;
 }
 .section5-container1>p{
     text-align: center;
@@ -231,6 +317,8 @@ background: rgba(41, 206, 246, 0.05);
     margin-top: 20px;
     display: flex;
     justify-content: center;
+    margin-bottom: 30px;
+    
 }
 .section5-container3{
     width:500px ;
@@ -257,7 +345,7 @@ text-align: center;
 font-size: 16px;
 font-weight: 400;
 line-height: 26px;
-margin-bottom: 30px;
+margin-bottom: 20px;
 }
 
 .section6-container2{
@@ -301,7 +389,7 @@ font-weight: 800;
 height: 45px;
 }
 .section6-container2> div{
-  margin-left: 600px; 
+  margin-left: 500px; 
 }
 
 .section6-container3{
@@ -345,7 +433,7 @@ font-weight: 800;
 height: 45px;
 }
 .section6-container3> div{
-  margin-left: 600px; 
+  margin-left: 500px; 
 }
 
 .section6-container4{
@@ -389,7 +477,7 @@ font-weight: 800;
 height: 45px;
 }
 .section6-container4> div{
-  margin-left: 600px; 
+  margin-left: 500px; 
 }
 .see-all{
   border-radius: 8px;
@@ -511,11 +599,49 @@ button {
 /* section-8 end */
 
 /* section-9 start */
+.section9-container1-main{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
 
+.section9-container1-letter{
+  border: 2px solid red;
+  border: none;
+  
+  padding: 50px;
 
+}
+.section9-container1-letter > h1{
+  font-size: 40px;
+  font-weight: bolder;
+  color: darkcyan;
+}
 
+.section9-container1-letter > ul> li{
+  margin-top: 10px;
+  margin-left: 30px;
+  overflow-y: auto;
+  width: 550px;
+  height: 120px;
+  border: 2px solid red;
+  border: none;
+  gap: 30px;
+}
 
+.section9-container1-img >img{
+  width: 400px;
+  height: 400px;
+  border-radius: 50%;
+  
 
+}
+.section9-container1-img >img:hover{
+  box-shadow: 5px 5px 70px 5px pink;
+}
 
 /* section-9 end */
 
@@ -559,8 +685,13 @@ footer p {
   transform: translate(-50%, -50%);
 }
 .footer-icon {
-  gap: 10px;
+  gap: 30px;
   margin-bottom: 50px;
+}
+.footer-icon>i{
+  gap: 50px;
+  height: 30px;
+  width: 30px;
 }
 .footer-container {
   top: 50%;
@@ -568,11 +699,8 @@ footer p {
 }
 .title {
   color: var(--Dark-01, #131318);
-  font-family: Mulish;
   font-size: 32px;
-  font-style: normal;
   font-weight: 800;
-  line-height: normal;
   margin-bottom: 15px;
   padding-top: 100px;
 }
