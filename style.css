@@ -757,16 +757,11 @@ hr {
   .section3-main {
     flex-direction: column;
   }
-  .row1-image {
+
+  .section4-row1-image{
     grid-template-columns: repeat(1, 1fr);
   }
-  .row2-image {
-    margin: 10px 0px;
-    grid-template-columns: repeat(1, 1fr);
-  }
-  .row3-image {
-    grid-template-columns: repeat(1, 1fr);
-  }
+  
   .section7-main {
     flex-direction: column;
   }
