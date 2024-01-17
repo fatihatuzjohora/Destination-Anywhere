@@ -369,18 +369,24 @@ height: 350px;
   color: #131318;
 font-size: 24px;
 font-weight: 800;
+margin-top: 10px;
+margin-bottom: 10px;
 }
 .section6-container2 > div > p{
   color: #5A5A5D;
 font-size: 16px;
 font-weight: 400;
 line-height: 26px;
+margin-top: 10px;
+margin-bottom: 10px;
 }
 
 .section6-container2 >div >h4{
   color: #FF5400;
 font-size: 20px;
 font-weight: 800;
+margin-top: 20px;
+margin-bottom: 40px;
 }
 .section6-container2 >div >button{
   border-radius: 8px;
@@ -413,18 +419,24 @@ height: 350px;
   color: #131318;
 font-size: 24px;
 font-weight: 800;
+margin-top: 10px;
+margin-bottom: 10px;
 }
 .section6-container3 > div > p{
   color: #5A5A5D;
 font-size: 16px;
 font-weight: 400;
 line-height: 26px;
+margin-top: 10px;
+margin-bottom: 10px;
 }
 
 .section6-container3 >div >h4{
   color: #FF5400;
 font-size: 20px;
 font-weight: 800;
+margin-top: 20px;
+margin-bottom: 40px;
 }
 .section6-container3 >div >button{
   border-radius: 8px;
@@ -457,18 +469,24 @@ height: 350px;
   color: #131318;
 font-size: 24px;
 font-weight: 800;
+margin-top: 10px;
+margin-bottom: 10px;
 }
 .section6-container4 > div > p{
   color: #5A5A5D;
 font-size: 16px;
 font-weight: 400;
 line-height: 26px;
+margin-top: 10px;
+margin-bottom: 10px;
 }
 
 .section6-container4 >div >h4{
   color: #FF5400;
 font-size: 20px;
 font-weight: 800;
+margin-top: 20px;
+margin-bottom: 40px;
 }
 .section6-container4 >div >button{
   border-radius: 8px;
